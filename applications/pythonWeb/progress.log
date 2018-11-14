@@ -1,0 +1,12 @@
+[2018-11-14 17:05:47] START
+[2018-11-14 17:19:49] CREATE basics.py: 0
+[2018-11-14 17:22:47] EDIT pythonWeb/controllers/basics.py: 3
+[2018-11-14 17:24:03] CREATE basics/helloworld.html: 0
+[2018-11-14 17:24:56] EDIT pythonWeb/views/basics/helloworld.html: 0
+[2018-11-14 17:25:38] EDIT pythonWeb/views/basics/helloworld.html: 2
+[2018-11-14 17:30:26] EDIT pythonWeb/views/basics/helloworld.html: 3
+[2018-11-14 17:39:22] DELETE pythonWeb/views/basics/request_args.html: -5
+[2018-11-14 17:39:44] CREATE basics/request_args.html: 0
+[2018-11-14 17:39:57] EDIT pythonWeb/views/basics/request_args.html: 2
+[2018-11-14 17:56:43] EDIT pythonWeb/views/basics/request_vars.html: 0
+[2018-11-14 18:07:12] EDIT pythonWeb/views/basics/request_object.html: 0
