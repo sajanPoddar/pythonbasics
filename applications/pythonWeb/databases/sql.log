@@ -53,3 +53,42 @@ CREATE TABLE "auth_cas"(
     "renew" CHAR(1)
 );
 success!
+timestamp: 2018-11-15T12:41:19.471000
+CREATE TABLE "pythonblog"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "blog_title" CHAR(512),
+    "blog_details" TEXT,
+    "blog_image" CHAR(512),
+    "blog_url" CHAR(512),
+    "blog_category" CHAR(512),
+    "blog_date_posted" DATE
+);
+success!
+timestamp: 2018-11-15T12:56:15.908000
+CREATE TABLE "blog"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "blog_title" CHAR(512),
+    "blog_details" TEXT,
+    "blog_image" CHAR(512),
+    "blog_url" CHAR(512),
+    "blog_category" CHAR(512),
+    "blog_date_posted" DATE
+);
+success!
+timestamp: 2018-11-15T15:55:12.445000
+CREATE TABLE "contacts"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "first_name" CHAR(512),
+    "last_name" CHAR(512),
+    "company_name" CHAR(512),
+    "address" CHAR(512),
+    "city" CHAR(512),
+    "country" CHAR(512),
+    "state_name" CHAR(512),
+    "zip" CHAR(512),
+    "phone1" CHAR(512),
+    "phone2" CHAR(512),
+    "email" CHAR(512),
+    "web" CHAR(512)
+);
+success!
